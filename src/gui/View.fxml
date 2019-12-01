@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="287.0" prefWidth="402.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Label fx:id="lbMensagem" layoutX="155.0" layoutY="69.0" text="Mensagem" textFill="#00b2ff">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btClique" layoutX="173.0" layoutY="106.0" mnemonicParsing="false" onAction="#onBtCliqueAction" text="Clique " textFill="RED" />
+      <Button fx:id="btVoltar" layoutX="102.0" layoutY="142.0" mnemonicParsing="false" onAction="#onBtVoltarAction" prefHeight="25.0" prefWidth="53.0" text="Voltar" textFill="#28d756" />
+      <Button fx:id="btApagar" layoutX="244.0" layoutY="142.0" mnemonicParsing="false" onAction="#onBtApagarAction" text="Apagar" textFill="#ff0090" />
+      <Label fx:id="lbOlaMundo" layoutX="139.0" layoutY="65.0" onDragDetected="#onBtCliqueAction" textFill="#e12cd2">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btSair" layoutX="172.0" layoutY="188.0" mnemonicParsing="false" onAction="#onbtSairAction" prefHeight="25.0" prefWidth="55.0" text="Sair" textFill="#ff5e00" />
+   </children>
+</AnchorPane>
